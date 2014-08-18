@@ -1,3 +1,25 @@
+chef-apply hello.rb
+
+more motd
+
+chef-apply hello.rb
+
+vi hello.rb 
+	world > chef
+
+chef-apply hello.rb
+
+echo 'hello robots' > motd
+
+chef-apply hello.rb
+
+chef-apply goodbye.rb
+	cat goodbye.rb
+more motd
+
+
+
+
 echo -e "package 'apache2'" > webserver.rb
 
 
@@ -7,10 +29,6 @@ echo -e "package 'apache2'
 \nservice 'apache2' do
   \naction [:start, :enable]
 \nend" > webserver.rb
-
-
-
-
 
 echo -e "package 'apache2'
 
